@@ -1,0 +1,3810 @@
+App List
+========
+
+Android Preferences
+-----
+AppType: AppType::kArc
+AppId: mconboelelhjpkbdhhiijkgcimoangdj
+Readiness: Readiness::kReady
+Name: Android Preferences
+ShortName: Android Preferences
+PublisherId: com.android.settings
+InstallerPackageId: android:com.android.settings
+Description: 
+Version: 13
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-21 11:21:13.226057 UTC
+Permissions:
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ details: While in use
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kAllow
+ details: While in use
+ is_managed: false
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kContacts
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kStorage
+ tristate_value: TriState::kAllow
+ details: All Files
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: com.android.settings
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: true
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 28672
+Data Size: 151552
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+AnuraOS
+-----
+AppType: AppType::kWeb
+AppId: kepoimpggpmbcpjjdghobnpbbhdmfnik
+Readiness: Readiness::kReady
+Name: AnuraOS
+ShortName: AnuraOS
+PublisherId: https://anura.pro/
+InstallerPackageId: web:https://anura.pro/
+Description: A webOS and development environment powered by v86
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-04-06 02:36:02.014000 UTC
+InstallTime: 2024-11-14 21:38:22.684000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSync
+InstallSource: InstallSource::kBrowser
+PolicyId: 
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: true
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: anura.pro:443
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+App Streaming
+-----
+AppType: AppType::kWeb
+AppId: pcmgemncoejjdplpoaekhfgkckffggcb
+Readiness: Readiness::kReady
+Name: App Streaming
+ShortName: App Streaming
+PublisherId: chrome://eche-app/
+InstallerPackageId: system:eche
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-11 22:35:14.419000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: eche
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: false
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: eche-app
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Basic Editor for Office files
+-----
+AppType: AppType::kExtension
+AppId: bpmcpldpdmajfigpchkicefoigmkfalc
+Readiness: Readiness::kReady
+Name: Basic Editor for Office files
+ShortName: Basic Editor for Office files
+PublisherId: 
+InstallerPackageId: chromeapp:bpmcpldpdmajfigpchkicefoigmkfalc
+Description: View and edit Microsoft Word, Excel, and PowerPoint files with Google Docs, Sheets, and Slides
+Version: 152.160.162
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 1601-01-01 00:00:00.000000 UTC
+Permissions:
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: bpmcpldpdmajfigpchkicefoigmkfalc
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: false
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ activity_name: /views/app.html
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile: application/msexcel application/msexcel-template application/mspowerpoint application/mspowerpoint-template application/msword application/msword-template application/vnd.ces-quickpoint application/vnd.ces-quicksheet application/vnd.ces-quickword application/vnd.ms-excel application/vnd.ms-excel.sheet.macroEnabled.12 application/vnd.ms-excel.sheet.macroenabled.12 application/vnd.ms-excel.template.macroenabled.12 application/vnd.ms-powerpoint application/vnd.ms-powerpoint.presentation.macroEnabled.12 application/vnd.ms-powerpoint.presentation.macroenabled.12 application/vnd.ms-powerpoint.template.macroenabled.12 application/vnd.ms-word application/vnd.ms-word.document.12 application/vnd.ms-word.document.macroEnabled.12 application/vnd.ms-word.document.macroenabled.12 application/vnd.ms-word.template.macroenabled.12 application/vnd.msword application/vnd.openxmlformats-officedocument.presentationml.presentation application/vnd.openxmlformats-officedocument.presentationml.template application/vnd.openxmlformats-officedocument.spreadsheetml.sheet application/vnd.openxmlformats-officedocument.spreadsheetml.template application/vnd.openxmlformats-officedocument.wordprocessingml.document application/vnd.openxmlformats-officedocument.wordprocessingml.template application/vnd.presentation-openxml application/vnd.presentation-openxmlm application/vnd.spreadsheet-openxml application/vnd.wordprocessing-openxml text/csv .xls .xlt .xlt .ppt .pot .pot .doc .dot .dot .ppt .xls .doc .xls .xlsm .xlsm .xltm .ppt .pptm .pptm .potm .doc .docm .docm .docm .dotm .doc .pptx .potx .xlsx .xltx .docx .dotx .pptx .pptx .xlsx .docx .csv
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Bite of Reality 2
+-----
+AppType: AppType::kArc
+AppId: jjpkookngfephbpihbilaooecpdmfgkk
+Readiness: Readiness::kReady
+Name: Bite of Reality 2
+ShortName: Bite of Reality 2
+PublisherId: com.rmj.biteofreality2
+InstallerPackageId: android:com.rmj.biteofreality2
+Description: 
+Version: 4.00
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-21 11:21:45.047885 UTC
+Permissions:
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kStorage
+ tristate_value: TriState::kAllow
+ details: Audio, Photos, and Videos
+ is_managed: false
+
+InstallReason: InstallReason::kUser
+InstallSource: InstallSource::kPlayStore
+PolicyId: com.rmj.biteofreality2
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 92950528
+Data Size: 53248
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Bridge Builder Simulator
+-----
+AppType: AppType::kArc
+AppId: cjggpflbkmlpnpegocecmlhdocgallch
+Readiness: Readiness::kReady
+Name: Bridge Builder Simulator
+ShortName: Bridge Builder Simulator
+PublisherId: pl.aidemmedia.BridgeBuilder
+InstallerPackageId: android:pl.aidemmedia.BridgeBuilder
+Description: 
+Version: 1.6
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-04-06 02:35:48.858276 UTC
+InstallTime: 2024-10-21 14:48:13.563541 UTC
+Permissions:
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+InstallReason: InstallReason::kUser
+InstallSource: InstallSource::kPlayStore
+PolicyId: pl.aidemmedia.BridgeBuilder
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 253476864
+Data Size: 7421952
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Camera
+-----
+AppType: AppType::kWeb
+AppId: njfbnohfdkmbmnjapinfcopialeghnmh
+Readiness: Readiness::kReady
+Name: Camera
+ShortName: Camera
+PublisherId: chrome://camera-app/views/main.html
+InstallerPackageId: system:camera
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-05-27 23:04:38.763000 UTC
+InstallTime: 2024-10-11 22:35:12.529000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: camera
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: camera-app
+ - ConditionType::kPath: /views*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Central Intelligency Agency
+-----
+AppType: AppType::kWeb
+AppId: meijdanbccammdaoekifadffihalpinl
+Readiness: Readiness::kReady
+Name: Central Intelligency Agency
+ShortName: Central Intelligency Agency
+PublisherId: https://www.cia.gov/
+InstallerPackageId: web:https://www.cia.gov/
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-01-06 20:04:18.257000 UTC
+InstallTime: 2024-10-14 12:36:39.334000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSync
+InstallSource: InstallSource::kSync
+PolicyId: 
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: true
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: www.cia.gov:443
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Chrome
+-----
+AppType: AppType::kChromeApp
+AppId: mgndgikekgjfcpckkfioiadnlibdjbkf
+Readiness: Readiness::kReady
+Name: Chrome
+ShortName: Chrome
+PublisherId: 
+InstallerPackageId: chromeapp:mgndgikekgjfcpckkfioiadnlibdjbkf
+Description: A fast, simple, and secure web browser, built for the modern web.
+Version: 0.1
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-12 12:41:33.808949 UTC
+InstallTime: 1601-01-01 00:00:00.000000 UTC
+Permissions:
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: mgndgikekgjfcpckkfioiadnlibdjbkf
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Chrome Web Store Payments
+-----
+AppType: AppType::kChromeApp
+AppId: nmmhkkegccagdldgiimedpiccmgmieda
+Readiness: Readiness::kReady
+Name: Chrome Web Store Payments
+ShortName: Chrome Web Store Payments
+PublisherId: 
+InstallerPackageId: chromeapp:nmmhkkegccagdldgiimedpiccmgmieda
+Description: Chrome Web Store Payments
+Version: 1.0.0.6
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-11 22:35:15.501344 UTC
+Permissions:
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: nmmhkkegccagdldgiimedpiccmgmieda
+InstalledInternally: 1
+IsPlatformApp: true
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: false
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Connectivity Diagnostics
+-----
+AppType: AppType::kWeb
+AppId: pinjbkpghjkgmlmfidajjdjocdpegjkg
+Readiness: Readiness::kReady
+Name: Connectivity Diagnostics
+ShortName: Connectivity Diagnostics
+PublisherId: chrome://connectivity-diagnostics/
+InstallerPackageId: system:connectivity_diagnostics
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-11 22:35:14.298000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: connectivity_diagnostics
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: false
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: connectivity-diagnostics
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Contacts
+-----
+AppType: AppType::kArc
+AppId: kipfkokfekalckplgaikemhghlbkgpfl
+Readiness: Readiness::kReady
+Name: Contacts
+ShortName: Contacts
+PublisherId: com.google.android.contacts
+InstallerPackageId: android:com.google.android.contacts
+Description: 
+Version: 4.53.31.750295859
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-21 11:21:13.227382 UTC
+Permissions:
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kContacts
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: com.google.android.contacts
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: true
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 54005760
+Data Size: 1376256
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Content Transfer
+-----
+AppType: AppType::kWeb
+AppId: dcmgllglecpogfcjmdkdncendnjphdcd
+Readiness: Readiness::kDisabledByPolicy
+Name: Content Transfer
+ShortName: Content Transfer
+PublisherId: chrome://graduation/
+InstallerPackageId: system:graduation
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2025-05-08 14:50:15.864000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: graduation
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: graduation
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Designer City
+-----
+AppType: AppType::kArc
+AppId: lafajnnpgmgfiaikbncagmddnoknlagg
+Readiness: Readiness::kReady
+Name: Designer City
+ShortName: Designer City
+PublisherId: com.spheregamestudios.designercity
+InstallerPackageId: android:com.spheregamestudios.designercity
+Description: 
+Version: 2.00
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-09 14:41:24.936929 UTC
+InstallTime: 2024-10-21 11:22:32.081365 UTC
+Permissions:
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+InstallReason: InstallReason::kUser
+InstallSource: InstallSource::kPlayStore
+PolicyId: com.spheregamestudios.designercity
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 308342784
+Data Size: 37490688
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Desmos
+-----
+AppType: AppType::kArc
+AppId: nepeikkfjlbepinebkjcmijpnaefifho
+Readiness: Readiness::kReady
+Name: Desmos
+ShortName: Desmos
+PublisherId: com.desmos.calculator
+InstallerPackageId: android:com.desmos.calculator
+Description: 
+Version: 7.37.0.0
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-06-04 13:51:18.441361 UTC
+InstallTime: 2025-03-07 13:43:13.977816 UTC
+Permissions:
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kStorage
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+InstallReason: InstallReason::kUser
+InstallSource: InstallSource::kPlayStore
+PolicyId: com.desmos.calculator
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 7348224
+Data Size: 4816896
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Device Policy
+-----
+AppType: AppType::kArc
+AppId: gppfpglfpeggcokflkcbogachglhkkik
+Readiness: Readiness::kReady
+Name: Device Policy
+ShortName: Device Policy
+PublisherId: com.google.android.apps.enterprise.dmagent
+InstallerPackageId: android:com.google.android.apps.enterprise.dmagent
+Description: 
+Version: 17.87.03
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-03-07 14:20:48.265062 UTC
+InstallTime: 2024-10-21 11:21:51.522101 UTC
+Permissions:
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kContacts
+ tristate_value: TriState::kAllow
+ is_managed: true
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: com.google.android.apps.enterprise.dmagent
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 13979648
+Data Size: 4829184
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Diagnostics
+-----
+AppType: AppType::kWeb
+AppId: keejpcfcpecjhmepmpcfgjemkmlicpam
+Readiness: Readiness::kReady
+Name: Diagnostics
+ShortName: Diagnostics
+PublisherId: chrome://diagnostics/
+InstallerPackageId: system:diagnostics
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-04-24 16:15:30.037000 UTC
+InstallTime: 2024-10-11 22:35:14.177000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: diagnostics
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: diagnostics
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Drive
+-----
+AppType: AppType::kArc
+AppId: ljmhbofhbaapdhebeafbhlcapoiipfbi
+Readiness: Readiness::kReady
+Name: Drive
+ShortName: Drive
+PublisherId: com.google.android.apps.docs
+InstallerPackageId: android:com.google.android.apps.docs
+Description: 
+Version: 2.25.340.0.all.alldpi
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-04-16 13:34:14.646007 UTC
+InstallTime: 2025-03-07 14:26:30.105915 UTC
+Permissions:
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kContacts
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kStorage
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+InstallReason: InstallReason::kUser
+InstallSource: InstallSource::kPlayStore
+PolicyId: com.google.android.apps.docs
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 69922816
+Data Size: 14319616
+Supported locales: de, hi, lo, en-US, pt, en-IN, lt, hr, lv, hu, zh-CN, hy, uk, en-AU, ur, ml, mn, af, id, mr, ms, el, is, it, am, my, es, fr-CA, he, et, eu, ar, as, pt-PT, vi, nb, ja, ne, az, fa, zu, ro, en-GB, nl, be, fi, ru, bg, bn, fr, ka, si, sk, es-US, sl, ca, sr, kk, km, kn, or, sv, ko, sw, gl, zh-HK, zh-TW, ta, gu, sr-Latn, cs, pa, te, th, tl, pl, da, tr
+Selected locale: 
+Extra: No Extra
+
+Duolingo
+-----
+AppType: AppType::kArc
+AppId: pijakdnkmdaokaaomhcgldpopifjilhe
+Readiness: Readiness::kReady
+Name: Duolingo
+ShortName: Duolingo
+PublisherId: com.duolingo
+InstallerPackageId: android:com.duolingo
+Description: 
+Version: 6.47.6
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-05-05 16:13:00.609985 UTC
+InstallTime: 2025-05-05 16:12:43.186137 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kContacts
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kStorage
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+InstallReason: InstallReason::kUser
+InstallSource: InstallSource::kPlayStore
+PolicyId: com.duolingo
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 177381376
+Data Size: 7303168
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Explain Everything
+-----
+AppType: AppType::kArc
+AppId: dcejgenkapkcklnjhemmicocnkcciidp
+Readiness: Readiness::kReady
+Name: Explain Everything
+ShortName: Explain Everything
+PublisherId: com.explaineverything.explaineverything
+InstallerPackageId: android:com.explaineverything.explaineverything
+Description: 
+Version: 8.2.2
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-05-27 15:11:56.667216 UTC
+InstallTime: 2025-03-07 14:17:36.411855 UTC
+Permissions:
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kContacts
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+InstallReason: InstallReason::kUser
+InstallSource: InstallSource::kPlayStore
+PolicyId: com.explaineverything.explaineverything
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 173826048
+Data Size: 16916480
+Supported locales: fi-FI, de, nb-NO, uk-UA, lv-LV, ms-MY, lt-LT, fr, hu, zh-CN, nl-NL, ja-JP, kk, ko, id, zh-TW, en, it, es, cs, ar, pl-PL, ru-RU, pt-PT, sv-SE, da-DK, tr-TR, ro, vi-VN, en-GB, th-TH
+Selected locale: 
+Extra: No Extra
+
+Explore
+-----
+AppType: AppType::kWeb
+AppId: nbljnnecbjbmifnoehiemkgefbnpoeak
+Readiness: Readiness::kReady
+Name: Explore
+ShortName: Explore
+PublisherId: chrome://help-app/
+InstallerPackageId: system:help
+Description: 
+Version: 
+AdditionalSearchTerms: Get Help, Perks, Offers
+LastLaunchTime: 2025-06-05 18:26:03.851000 UTC
+InstallTime: 2024-10-11 22:35:13.801000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: help
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: help-app
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Falix
+-----
+AppType: AppType::kWeb
+AppId: enoanlnhhabcedehjokcffaadihmfcch
+Readiness: Readiness::kReady
+Name: Falix
+ShortName: Falix
+PublisherId: https://client.falixnodes.net/
+InstallerPackageId: web:https://client.falixnodes.net/
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-08 13:30:43.336000 UTC
+InstallTime: 2025-05-12 13:38:37.382000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSync
+InstallSource: InstallSource::kBrowser
+PolicyId: 
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: true
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: client.falixnodes.net:443
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Feedback
+-----
+AppType: AppType::kWeb
+AppId: iffgohomcomlpmkfikfffagkkoojjffm
+Readiness: Readiness::kReady
+Name: Feedback
+ShortName: Feedback
+PublisherId: chrome://os-feedback/
+InstallerPackageId: system:os_feedback
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-11 22:35:15.125000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: os_feedback
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: os-feedback
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Files
+-----
+AppType: AppType::kArc
+AppId: gmiohhmfhgfclpeacmdfancbipocempm
+Readiness: Readiness::kReady
+Name: Files
+ShortName: Files
+PublisherId: com.android.documentsui
+InstallerPackageId: android:com.android.documentsui
+Description: 
+Version: 13
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-21 11:21:13.228125 UTC
+Permissions:
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kStorage
+ tristate_value: TriState::kAllow
+ details: All Files
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: com.android.documentsui
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: true
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 503808
+Data Size: 106496
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Files
+-----
+AppType: AppType::kWeb
+AppId: fkiggjmkendpmbegkagpmagjepfkpmeb
+Readiness: Readiness::kReady
+Name: Files
+ShortName: Files
+PublisherId: chrome://file-manager/
+InstallerPackageId: system:file_manager
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-12 17:53:08.476149 UTC
+InstallTime: 2024-10-11 22:35:12.236000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: file_manager, hhaomjibdihmijegdhdafkllkbggdgoj
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: file-manager
+ - ConditionType::kPath: /*
+
+ activity_name: chrome://file-manager/?mount-archive
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile:  7z bz bz2 crx gz iso lz lzma rar tar taz tb2 tbz tbz2 tgz tlz tlzma txz tz tz2 tzst xz z zip zst
+
+ activity_name: chrome://file-manager/?open-hosted-generic
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile:  gdraw gform glink gmaillayout gmaps gsite gtable
+
+ activity_name: chrome://file-manager/?open-hosted-gdoc
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile:  gdoc
+
+ activity_name: chrome://file-manager/?open-hosted-gsheet
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile:  gsheet
+
+ activity_name: chrome://file-manager/?open-hosted-gslides
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile:  gslides
+
+ activity_name: chrome://file-manager/?view-pdf
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile: application/pdf pdf
+
+ activity_name: chrome://file-manager/?view-in-browser
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile: text/plain htm html mht mhtml shtml svg txt xht xhtml
+
+ activity_name: chrome://file-manager/?install-linux-package
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile:  deb
+
+ activity_name: chrome://file-manager/?import-crostini-image
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile:  tini
+
+ conditions:
+ - ConditionType::kAction: potential_file_handler
+ - ConditionType::kFile: 7z bz bz2 crx deb gdoc gdraw gform glink gmaillayout gmaps gsheet gsite gslides gtable gz htm html iso lz lzma mht mhtml pdf rar shtml svg tar taz tb2 tbz tbz2 tgz tini tlz tlzma txt txz tz tz2 tzst xht xhtml xz z zip zst
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Firmware Updates
+-----
+AppType: AppType::kWeb
+AppId: nedcdcceagjbkiaecmdbpafcmlhkiifa
+Readiness: Readiness::kReady
+Name: Firmware Updates
+ShortName: Firmware Updates
+PublisherId: chrome://accessory-update/
+InstallerPackageId: system:firmware_update
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-11 22:35:15.390000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: firmware_update
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: false
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: accessory-update
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Flags
+-----
+AppType: AppType::kWeb
+AppId: khblciolcoghjgcpcmkgdaliomgnhmob
+Readiness: Readiness::kReady
+Name: Flags
+ShortName: Flags
+PublisherId: chrome://flags/
+InstallerPackageId: system:os_flags
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2024-12-02 15:50:24.619000 UTC
+InstallTime: 2024-10-11 22:35:15.630000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: os_flags
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: false
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: flags
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Gallery
+-----
+AppType: AppType::kWeb
+AppId: jhdjimmaggjajfjphpljagpgkidjilnj
+Readiness: Readiness::kReady
+Name: Gallery
+ShortName: Gallery
+PublisherId: chrome://media-app/
+InstallerPackageId: system:media
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-10 18:00:02.282000 UTC
+InstallTime: 2024-10-11 22:35:13.476000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: media
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: media-app
+ - ConditionType::kPath: /*
+
+ activity_name: chrome://media-app/
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile: image/* video/* image/tiff video/ogg video/webm video/mpeg image/bmp image/gif image/vnd.microsoft.icon image/jpeg image/png image/webp image/svg+xml image/avif .arw .cr2 .dng .nef .nrw .orf .raf .rw2 .ogm .ogv .ogx .webm .3gp .m4v .mkv .mov .mp4 .mpeg .mpeg4 .mpg .mpg4 .bmp .gif .ico .jfi .jfif .jif .jpe .jpeg .jpg .pjp .pjpeg .png .webp .svg .svgz .avif
+
+ activity_name: chrome://media-app/
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile: audio/* audio/flac audio/m4a audio/mpeg audio/ogg audio/wav audio/webm audio/mp3 audio/x-m4a .flac .m4a .mp3 .oga .ogg .opus .wav weba mp3 m4a
+
+ activity_name: chrome://media-app/
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile: application/pdf .pdf
+
+ conditions:
+ - ConditionType::kAction: potential_file_handler
+ - ConditionType::kFile: .3gp .arw .avif .bmp .cr2 .dng .flac .gif .ico .jfi .jfif .jif .jpe .jpeg .jpg .m4a .m4v .mkv .mov .mp3 .mp4 .mpeg .mpeg4 .mpg .mpg4 .nef .nrw .oga .ogg .ogm .ogv .ogx .opus .orf .pdf .pjp .pjpeg .png .raf .rw2 .svg .svgz .wav .webm .webp m4a mp3 weba
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Google Chat
+-----
+AppType: AppType::kWeb
+AppId: mdpkiolbdkhdjpekfbkbmhigcaggjagi
+Readiness: Readiness::kReady
+Name: Google Chat
+ShortName: Google Chat
+PublisherId: https://mail.google.com/chat/
+InstallerPackageId: web:https://mail.google.com/chat/
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-02-07 13:38:33.146000 UTC
+InstallTime: 2024-10-14 02:26:46.666000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSync
+InstallSource: InstallSource::kSync
+PolicyId: 
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: true
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: mail.google.com:443
+ - ConditionType::kPath: /chat/*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Key Shortcuts
+-----
+AppType: AppType::kWeb
+AppId: ihgeegogifolehadhdgelgcnbnmemikp
+Readiness: Readiness::kReady
+Name: Key Shortcuts
+ShortName: Key Shortcuts
+PublisherId: chrome://shortcut-customization/
+InstallerPackageId: system:shortcut_customization
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-11 13:03:04.816000 UTC
+InstallTime: 2024-10-11 22:35:14.729000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: shortcut_customization
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: shortcut-customization
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Khan Academy
+-----
+AppType: AppType::kArc
+AppId: haagjioeoeoabpglhmpiknoioocddiml
+Readiness: Readiness::kReady
+Name: Khan Academy
+ShortName: Khan Academy
+PublisherId: org.khanacademy.android
+InstallerPackageId: android:org.khanacademy.android
+Description: 
+Version: 8.3.1
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-05-05 16:09:03.569047 UTC
+InstallTime: 2025-05-05 16:09:00.934975 UTC
+Permissions:
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kStorage
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+InstallReason: InstallReason::kUser
+InstallSource: InstallSource::kPlayStore
+PolicyId: org.khanacademy.android
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 46264320
+Data Size: 5038080
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Light Meter
+-----
+AppType: AppType::kArc
+AppId: jilokjhfoldekiehedfikjjcpljfgigl
+Readiness: Readiness::kReady
+Name: Light Meter
+ShortName: Light Meter
+PublisherId: com.tsang.alan.lightmeter
+InstallerPackageId: android:com.tsang.alan.lightmeter
+Description: 
+Version: 1.5
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-05-05 16:13:38.884678 UTC
+InstallTime: 2025-05-05 16:12:50.525693 UTC
+Permissions:
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+InstallReason: InstallReason::kUser
+InstallSource: InstallSource::kPlayStore
+PolicyId: com.tsang.alan.lightmeter
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 12505088
+Data Size: 5275648
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Messages
+-----
+AppType: AppType::kWeb
+AppId: hpfldicfbfomlpcikngkocigghgafkph
+Readiness: Readiness::kReady
+Name: Messages
+ShortName: Messages
+PublisherId: https://messages.google.com/web/?pwa=1
+InstallerPackageId: web:https://messages.google.com/web/
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-10 17:44:12.928000 UTC
+InstallTime: 2025-01-07 15:05:48.917000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSync
+InstallSource: InstallSource::kBrowser
+PolicyId: 
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: true
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: messages.google.com:443
+ - ConditionType::kPath: /web/*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+OneNote
+-----
+AppType: AppType::kArc
+AppId: lmkbeifelhcbconmecflpjfkpffoahea
+Readiness: Readiness::kReady
+Name: OneNote
+ShortName: OneNote
+PublisherId: com.microsoft.office.onenote
+InstallerPackageId: android:com.microsoft.office.onenote
+Description: 
+Version: 16.0.18925.20004
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-03-07 14:11:10.242072 UTC
+InstallTime: 2025-03-07 13:50:03.161089 UTC
+Permissions:
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kStorage
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+InstallReason: InstallReason::kUser
+InstallSource: InstallSource::kPlayStore
+PolicyId: com.microsoft.office.onenote
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 208818176
+Data Size: 124309504
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Package installer
+-----
+AppType: AppType::kArc
+AppId: jegcgkleafemmaabigncnldhlhnddfkf
+Readiness: Readiness::kReady
+Name: Package installer
+ShortName: Package installer
+PublisherId: com.google.android.packageinstaller
+InstallerPackageId: android:com.google.android.packageinstaller
+Description: 
+Version: 13
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-21 11:21:13.229701 UTC
+Permissions:
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: com.google.android.packageinstaller
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: true
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 4096
+Data Size: 57344
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Parallels Desktop
+-----
+AppType: AppType::kPluginVm
+AppId: lgjpclljbbmphhnalkeplcmnjpfmmaek
+Readiness: Readiness::kDisabledByPolicy
+Name: Parallels Desktop
+ShortName: Parallels Desktop
+PublisherId: 
+InstallerPackageId: null
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 1601-01-01 00:00:00.000000 UTC
+Permissions:
+ permission type: PermissionType::kPrinting
+ bool_value: true
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ bool_value: false
+ is_managed: false
+
+ permission type: PermissionType::kMicrophone
+ bool_value: false
+ is_managed: false
+
+InstallReason: InstallReason::kUser
+InstallSource: InstallSource::kUnknown
+PolicyId: 
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: false
+Searchable: false
+ShowInLauncher: false
+ShowInShelf: false
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: null
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: null
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+PicCollage
+-----
+AppType: AppType::kArc
+AppId: hdcgjipmelhnijggigijlpnhbhmmkkdc
+Readiness: Readiness::kReady
+Name: PicCollage
+ShortName: PicCollage
+PublisherId: com.cardinalblue.piccollage.google
+InstallerPackageId: android:com.cardinalblue.piccollage.google
+Description: 
+Version: 7.17.10
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-05-22 15:11:10.262286 UTC
+InstallTime: 2025-05-22 15:10:56.814405 UTC
+Permissions:
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kStorage
+ tristate_value: TriState::kAllow
+ details: Photos and Videos
+ is_managed: false
+
+InstallReason: InstallReason::kUser
+InstallSource: InstallSource::kPlayStore
+PolicyId: com.cardinalblue.piccollage.google
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 116477952
+Data Size: 5799936
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Play Store
+-----
+AppType: AppType::kArc
+AppId: cnbgggchhmkkdmeppjobngjoejnihlei
+Readiness: Readiness::kReady
+Name: Play Store
+ShortName: Play Store
+PublisherId: com.android.vending
+InstallerPackageId: android:com.android.vending
+Description: 
+Version: 47.8.19-31 [0] [PR] 801043932
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-11 13:04:00.128723 UTC
+InstallTime: 2024-10-11 22:35:11.830226 UTC
+Permissions:
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kContacts
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kStorage
+ tristate_value: TriState::kAllow
+ details: Audio, Photos, and Videos
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: com.android.vending
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: play.google.com
+ - ConditionType::kPath:  / /store* /redeem* /wishlist* /apps/test/* /apps /apps/launch /protect/home*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 154890240
+Data Size: 2139402240
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Print jobs
+-----
+AppType: AppType::kWeb
+AppId: fglkccnmnaankjodgccmiodmlkpaiodc
+Readiness: Readiness::kReady
+Name: Print jobs
+ShortName: Print jobs
+PublisherId: chrome://print-management/
+InstallerPackageId: system:print_management
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-11 22:35:13.901000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: print_management
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: print-management
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Safety reset
+-----
+AppType: AppType::kWeb
+AppId: kochjemhjheifpfhkppkameonoheenjk
+Readiness: Readiness::kReady
+Name: Safety reset
+ShortName: Safety reset
+PublisherId: chrome://sanitize/
+InstallerPackageId: system:os_sanitize
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2025-05-08 14:50:15.515000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: os_sanitize
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: sanitize
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Scan
+-----
+AppType: AppType::kWeb
+AppId: cdkahakpgkdaoffdmfgnhgomkelkocfo
+Readiness: Readiness::kReady
+Name: Scan
+ShortName: Scan
+PublisherId: chrome://scanning/
+InstallerPackageId: system:scanning
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-11 22:35:14.027000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: scanning
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: scanning
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+School Tools
+-----
+AppType: AppType::kWeb
+AppId: cmkbninanhfalnkllgnbjmonkoiefgee
+Readiness: Readiness::kReady
+Name: School Tools
+ShortName: School Tools
+PublisherId: chrome-untrusted://boca-app/index.html
+InstallerPackageId: system:boca
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2025-05-08 14:50:15.328000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: boca
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: false
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome-untrusted
+ - ConditionType::kAuthority: boca-app
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Screencast
+-----
+AppType: AppType::kWeb
+AppId: hohmppfoilmflgicnofelkdablfahbnl
+Readiness: Readiness::kReady
+Name: Screencast
+ShortName: Screencast
+PublisherId: chrome-untrusted://projector/
+InstallerPackageId: system:projector
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-11 16:16:38.245000 UTC
+InstallTime: 2024-10-11 22:35:15.251000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: projector
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome-untrusted
+ - ConditionType::kAuthority: projector
+ - ConditionType::kPath: /*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: screencast.apps.chrome:443
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Settings
+-----
+AppType: AppType::kWeb
+AppId: odknhmnlageboeamepcngndbggdpaobj
+Readiness: Readiness::kReady
+Name: Settings
+ShortName: Settings
+PublisherId: chrome://os-settings/
+InstallerPackageId: system:settings
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-09 16:32:59.998000 UTC
+InstallTime: 2024-10-11 22:35:12.406000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: settings
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: os-settings
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Shimless RMA
+-----
+AppType: AppType::kWeb
+AppId: ijolhdommgkkhpenofmpkkhlepahelcm
+Readiness: Readiness::kReady
+Name: Shimless RMA
+ShortName: Shimless RMA
+PublisherId: chrome://shimless-rma/
+InstallerPackageId: system:shimless_rma
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-11 22:35:14.912000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: shimless_rma
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: false
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: shimless-rma
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+SpaceHey
+-----
+AppType: AppType::kWeb
+AppId: mkdejlombafpoonofnhoblnkkjicffgj
+Readiness: Readiness::kReady
+Name: SpaceHey
+ShortName: SpaceHey
+PublisherId: https://spacehey.com/
+InstallerPackageId: web:https://spacehey.com/
+Description: SpaceHey is a retro social network focused on privacy and customizability. It's a friendly place to have fun, meet friends, and be creative. Join for free!
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-09 14:39:54.902000 UTC
+InstallTime: 2025-06-16 12:51:33.688000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSync
+InstallSource: InstallSource::kBrowser
+PolicyId: 
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: true
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: spacehey.com:443
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Sphero Edu
+-----
+AppType: AppType::kArc
+AppId: nchochcdlcbjfjepekekpoiijeagleib
+Readiness: Readiness::kReady
+Name: Sphero Edu
+ShortName: Sphero Edu
+PublisherId: com.sphero.sprk
+InstallerPackageId: android:com.sphero.sprk
+Description: 
+Version: 8.1.0
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-09 14:44:06.860741 UTC
+InstallTime: 2025-05-05 16:14:28.679703 UTC
+Permissions:
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+ permission type: PermissionType::kStorage
+ tristate_value: TriState::kBlock
+ is_managed: false
+
+InstallReason: InstallReason::kUser
+InstallSource: InstallSource::kPlayStore
+PolicyId: com.sphero.sprk
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: 128339968
+Data Size: 1609728
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Spotify
+-----
+AppType: AppType::kWeb
+AppId: pjibgclleladliembfgfagdaldikeohf
+Readiness: Readiness::kReady
+Name: Spotify
+ShortName: Spotify
+PublisherId: https://open.spotify.com/?utm_source=pwa_install
+InstallerPackageId: web:https://open.spotify.com/?utm_source=pwa_install
+Description: Spotify Web
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-12 17:45:06.177492 UTC
+InstallTime: 2025-06-03 13:11:19.980000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSync
+InstallSource: InstallSource::kBrowser
+PolicyId: 
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: true
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: open.spotify.com:443
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Steam installer
+-----
+AppType: AppType::kBorealis
+AppId: dkecggknbdokeipkgnhifhiokailichf
+Readiness: Readiness::kDisabledByPolicy
+Name: Steam installer
+ShortName: Steam installer
+PublisherId: 
+InstallerPackageId: null
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 1601-01-01 00:00:00.000000 UTC
+Permissions:
+InstallReason: InstallReason::kDefault
+InstallSource: InstallSource::kSystem
+PolicyId: 
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: false
+Searchable: false
+ShowInLauncher: false
+ShowInShelf: false
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: null
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Steam installer
+-----
+AppType: AppType::kBorealis
+AppId: ceoplblcdaffnnflkkcagjpomjgedmdl
+Readiness: Readiness::kDisabledByPolicy
+Name: Steam installer
+ShortName: Steam installer
+PublisherId: 
+InstallerPackageId: null
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 1601-01-01 00:00:00.000000 UTC
+Permissions:
+InstallReason: InstallReason::kDefault
+InstallSource: InstallSource::kSystem
+PolicyId: 
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: false
+Searchable: false
+ShowInLauncher: false
+ShowInShelf: false
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: null
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Terminal
+-----
+AppType: AppType::kWeb
+AppId: fhicihalidkgcimdmhpohldehjmcabcf
+Readiness: Readiness::kReady
+Name: Terminal
+ShortName: Terminal
+PublisherId: chrome-untrusted://terminal/html/terminal.html
+InstallerPackageId: system:terminal
+Description: 
+Version: 
+AdditionalSearchTerms: linux, terminal, crostini, ssh, Linux
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-11 22:35:13.215000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: terminal
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome-untrusted
+ - ConditionType::kAuthority: terminal
+ - ConditionType::kPath: /*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile: inode/directory
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+TikTok
+-----
+AppType: AppType::kWeb
+AppId: nlalbmkafgmoifbeooblidblkmlhhpnc
+Readiness: Readiness::kReady
+Name: TikTok
+ShortName: TikTok
+PublisherId: https://www.tiktok.com/foryou
+InstallerPackageId: web:https://www.tiktok.com/foryou
+Description: TikTok PWA
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-09 14:14:56.427000 UTC
+InstallTime: 2024-10-14 12:36:38.709000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSync
+InstallSource: InstallSource::kSync
+PolicyId: 
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: true
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: www.tiktok.com:443
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Vernier Graphical Analysis
+-----
+AppType: AppType::kWeb
+AppId: ocgiedgmgfoocelalnmphikjnbgnnmdb
+Readiness: Readiness::kReady
+Name: Vernier Graphical Analysis
+ShortName: Vernier Graphical Analysis
+PublisherId: https://graphicalanalysis.app/
+InstallerPackageId: web:https://graphicalanalysis.app/
+Description: Graphical Analysis™ is a tool for science students to collect, graph, and analyze data from Vernier sensors.
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-05-19 13:44:40.349000 UTC
+InstallTime: 2025-05-19 13:44:40.149000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSync
+InstallSource: InstallSource::kBrowser
+PolicyId: 
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: true
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: graphicalanalysis.app:443
+ - ConditionType::kPath: /*
+
+ conditions:
+ - ConditionType::kAction: send send_multiple
+ - ConditionType::kFile: video/mp4 video/x-m4v video/*
+
+ activity_name: https://graphicalanalysis.app/
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kFile: application/vnd.vernier.ga .ambl .gambl
+
+ conditions:
+ - ConditionType::kAction: potential_file_handler
+ - ConditionType::kFile: .ambl .gambl
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Wallpaper & style
+-----
+AppType: AppType::kWeb
+AppId: glenkcidjgckcomnliblmkokolehpckn
+Readiness: Readiness::kReady
+Name: Wallpaper & style
+ShortName: Wallpaper & style
+PublisherId: chrome://personalization/
+InstallerPackageId: system:personalization
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-09-02 12:52:36.040000 UTC
+InstallTime: 2024-10-11 22:35:14.610000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAllow
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: personalization
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: false
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome
+ - ConditionType::kAuthority: personalization
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Watch Re:ZERO -Starting Life in Another World- english sub online, streaming, flv - Anime Owl
+-----
+AppType: AppType::kWeb
+AppId: acdiffoncbellhpfnhnhbmkoeigjbhcb
+Readiness: Readiness::kReady
+Name: Watch Re:ZERO -Starting Life in Another World- english sub online, streaming, flv - Anime Owl
+ShortName: Watch Re:ZERO -Starting Life in Another World- english sub online, streaming, flv - Anime Owl
+PublisherId: https://animeowl.me/anime/rezero-kara-hajimeru-isekai-seikatsu
+InstallerPackageId: web:https://animeowl.me/anime/rezero-kara-hajimeru-isekai-seikatsu
+Description: Watch (movie) Re:ZERO -Starting Life in Another World- english sub online free on animeowl. Direct download (movie) Re:ZERO -Starting Life in Another World- english sub flv. Stay on Animeowl to get the latest update on this anime. Watch online and download anime Re:ZERO -Starting Life in Another World-, Re:ZERO -Starting Life in Another World-, Re: Life in a different world from zero, Re:Zero, ReZero, Re：ゼロから始める異世界生活;
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 2025-06-15 20:05:09.976000 UTC
+InstallTime: 2025-06-15 20:05:05.790000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSync
+InstallSource: InstallSource::kBrowser
+PolicyId: 
+InstalledInternally: 0
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: true
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: animeowl.me:443
+ - ConditionType::kPath: /anime/*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kBrowser
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Web Store
+-----
+AppType: AppType::kChromeApp
+AppId: ahfgeienlihckogmohjhadlkjgocpleb
+Readiness: Readiness::kReady
+Name: Web Store
+ShortName: Web Store
+PublisherId: 
+InstallerPackageId: chromeapp:ahfgeienlihckogmohjhadlkjgocpleb
+Description: Discover great apps, games, extensions and themes for Google Chrome.
+Version: 0.2
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 1601-01-01 00:00:00.000000 UTC
+Permissions:
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: ahfgeienlihckogmohjhadlkjgocpleb
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kUnknown
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+crosh
+-----
+AppType: AppType::kWeb
+AppId: cgfnfgkafmcdkdgilmojlnaadileaach
+Readiness: Readiness::kDisabledByPolicy
+Name: crosh
+ShortName: crosh
+PublisherId: chrome-untrusted://crosh/
+InstallerPackageId: system:crosh
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2024-10-11 22:35:14.485000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kSystem
+InstallSource: InstallSource::kSystem
+PolicyId: crosh
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: false
+ShowInShelf: false
+ShowInSearch: false
+ShowInManagement: false
+HandlesIntents: false
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: chrome-untrusted
+ - ConditionType::kAuthority: crosh
+ - ConditionType::kPath: /*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kWindow
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+https://chrome.google.com/webstore/detail/newsguard/hcgajcpgaalgpeholhdooeddllhedegi?hl=en
+-----
+AppType: AppType::kWeb
+AppId: idgdkhchkgkphochhghkbhogkdkkgmbl
+Readiness: Readiness::kReady
+Name: https://chrome.google.com/webstore/detail/newsguard/hcgajcpgaalgpeholhdooeddllhedegi?hl=en
+ShortName: https://chrome.google.com/webstore/detail/newsguard/hcgajcpgaalgpeholhdooeddllhedegi?hl=en
+PublisherId: https://chrome.google.com/webstore/detail/newsguard/hcgajcpgaalgpeholhdooeddllhedegi?hl=en
+InstallerPackageId: web:https://chrome.google.com/webstore/detail/newsguard/hcgajcpgaalgpeholhdooeddllhedegi?hl=en
+Description: 
+Version: 
+AdditionalSearchTerms: 
+LastLaunchTime: 1601-01-01 00:00:00.000000 UTC
+InstallTime: 2025-08-14 19:09:12.023000 UTC
+Permissions:
+ permission type: PermissionType::kMicrophone
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kCamera
+ tristate_value: TriState::kAsk
+ is_managed: false
+
+ permission type: PermissionType::kLocation
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kNotifications
+ tristate_value: TriState::kBlock
+ is_managed: true
+
+ permission type: PermissionType::kFileHandling
+ bool_value: true
+ is_managed: false
+
+InstallReason: InstallReason::kPolicy
+InstallSource: InstallSource::kBrowser
+PolicyId: https://chrome.google.com/webstore/detail/newsguard/hcgajcpgaalgpeholhdooeddllhedegi?hl=en
+InstalledInternally: 1
+IsPlatformApp: false
+Recommendable: true
+Searchable: true
+ShowInLauncher: true
+ShowInShelf: true
+ShowInSearch: true
+ShowInManagement: true
+HandlesIntents: true
+AllowUninstall: false
+HasBadge: false
+Paused: false
+IntentFilters: 
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: chrome.google.com:443
+ - ConditionType::kPath: /webstore/detail/newsguard/*
+
+ResizeLocked: null
+AllowWindowModeSelection: true
+WindowMode: WindowMode::kBrowser
+RunOnOsLoginMode: RunOnOsLoginMode::kNotRun
+Allow Close: true
+App Size: null
+Data Size: null
+Supported locales: 
+Selected locale: 
+Extra: No Extra
+
+Preferred Apps
+==============
+
+AnuraOS (kepoimpggpmbcpjjdghobnpbbhdmfnik)
+-----
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: anura.pro:443
+ - ConditionType::kPath: /*
+
+
+Device Policy (gppfpglfpeggcokflkcbogachglhkkik)
+-----
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: play.google.com
+ - ConditionType::kPath: /managed/google-mdm-work-profile-migration*
+
+
+Duolingo (pijakdnkmdaokaaomhcgldpopifjilhe)
+-----
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: ar.duolingo.com cs.duolingo.com de.duolingo.com el.duolingo.com es.duolingo.com fr.duolingo.com hi.duolingo.com hu.duolingo.com id.duolingo.com it.duolingo.com ja.duolingo.com ko.duolingo.com nl-nl.duolingo.com pl.duolingo.com pt.duolingo.com ro.duolingo.com ru.duolingo.com stories.duolingo.com th.duolingo.com tr.duolingo.com uk.duolingo.com vi.duolingo.com www.duolingo.com
+ - ConditionType::kPath: / /course/* /skill/* /users/* /u/* /profile/* /c/* /p/* /shop /mm /monthly_goal /leaderboard /reset_password/i /home /stories* /share-family-plan* /year-in-review* /giftcode* /share* /add_friends* /max* /contact_sync* /plus_view* /licensed_music* /course_switcher*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: blast.duolingo.com
+ - ConditionType::kPath: /redirect/*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: ar.duolingo.com cs.duolingo.com de.duolingo.com el.duolingo.com es.duolingo.com fr.duolingo.com gifting-subscriptions.duolingo.com hi.duolingo.com hu.duolingo.com id.duolingo.com it.duolingo.com ja.duolingo.com ko.duolingo.com nl-nl.duolingo.com pl.duolingo.com pt.duolingo.com ro.duolingo.com ru.duolingo.com stories.duolingo.com th.duolingo.com tr.duolingo.com uk.duolingo.com vi.duolingo.com www.duolingo.com
+ - ConditionType::kPath: / /course/* /skill/* /users/* /u/* /profile/* /c/* /p/* /shop /mm /feed /monthly_goal /leaderboard /reset_password/i /home /stories* /share-family-plan* /year-in-review* /giftcode* /share* /redeem-gift* /add_friends* /max* /contact_sync* /plus_view* /licensed_music* /course_switcher* /score-linkedin-landing* /chess-launch
+
+
+Explain Everything (dcejgenkapkcklnjhemmicocnkcciidp)
+-----
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: drive.explaineverything.com
+ - ConditionType::kPath: /auth/oauth2/PRW*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: explai.staging.explaineverything.com
+ - ConditionType::kPath: /auth/oauth2/PRW*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: expl.ai
+ - ConditionType::kPath: /*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: drive.explaineverything.com
+ - ConditionType::kPath: /auth/set-new-password/*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: expl.ai
+ - ConditionType::kPath: /j*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: explai.explaineverything.dev
+ - ConditionType::kPath: /*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: explai.explaineverything.dev
+ - ConditionType::kPath: /j*
+
+
+Khan Academy (haagjioeoeoabpglhmpiknoioocddiml)
+-----
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: az.khanacademy.org bg.khanacademy.org bn.khanacademy.org cs.khanacademy.org da.khanacademy.org de.khanacademy.org es.khanacademy.org fr.khanacademy.org hi.khanacademy.org hu.khanacademy.org hy.khanacademy.org id.khanacademy.org ka.khanacademy.org ko.khanacademy.org mr.khanacademy.org nb.khanacademy.org nl.khanacademy.org pa.khanacademy.org pl.khanacademy.org pt-pt.khanacademy.org pt.khanacademy.org sr.khanacademy.org tr.khanacademy.org uk.khanacademy.org vi.khanacademy.org www-boxes.khanacademy.org www.khanacademy.org zh-hans.khanacademy.org zh.khanacademy.org
+ - ConditionType::kPath: /login/clever/redirect* /login/clever/redirect_dev* /video/* /video* /..*/..*/..*/..*/a/.* /..*/..*/..*/..*/v/.* /..*/..*/..*/..*/e/.* /..*/..*/..*/..*/..*/a/.* /..*/..*/..*/..*/..*/v/.* /..*/..*/..*/..*/..*/e/.* /..*/..*/..*/a/.* /..*/..*/a/.* /..*/..*/v/.* /..*/..*/e/.* /..*/a/.* /..*/v/.* /..*/e/.* /a/* /v/* /e/* /math* /science* /economics-finance-domain* /humanities* /computing/hour-of-code* /computing/computers-and-internet* /computing/ap-computer-science-principles* /computing/computer-science* /computing/pixar* /computing/code-org* /computing /test-prep* /partner-content* /playlist* /playlists* /talks-and-interviews* /educator* /profile/me/khanmigo/activities/*
+
+
+PicCollage (hdcgjipmelhnijggigijlpnhbhmmkkdc)
+-----
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: pic-collage.com piccollage.com
+ - ConditionType::kPath: /*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: piccollage.onelink.me
+ - ConditionType::kPath: /*
+
+
+Play Store (cnbgggchhmkkdmeppjobngjoejnihlei)
+-----
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: play.google.com
+ - ConditionType::kPath: /protect/home*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: play.google.com
+ - ConditionType::kPath: /apps/launch
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: market.android.com
+ - ConditionType::kPath: /*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: play.google.com
+ - ConditionType::kPath:  / /store* /redeem* /wishlist* /apps/test/* /apps
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: play.google.com
+ - ConditionType::kPath: /d
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: play.google.com
+ - ConditionType::kPath: /cubes
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: play.google.com
+ - ConditionType::kPath: /store/apps/details
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: my.play
+ - ConditionType::kPath:  /*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: play.google.com
+ - ConditionType::kPath:  / /store* /redeem* /wishlist* /gamerprofile* /apps/test/* /apps
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: play.google.com
+ - ConditionType::kPath: /store/apps/details*
+
+
+Screencast (hohmppfoilmflgicnofelkdablfahbnl)
+-----
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: screencast.apps.chrome:443
+ - ConditionType::kPath: /*
+
+
+Sphero Edu (nchochcdlcbjfjepekekpoiijeagleib)
+-----
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: http https
+ - ConditionType::kAuthority: link.sphero.com
+ - ConditionType::kPath: /click*
+
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: edu.sphero.com
+ - ConditionType::kPath: /remixes/..* /cwists/preview/..* /clever_portal/..*
+
+
+TikTok (nlalbmkafgmoifbeooblidblkmlhhpnc)
+-----
+ conditions:
+ - ConditionType::kAction: view
+ - ConditionType::kScheme: https
+ - ConditionType::kAuthority: www.tiktok.com:443
+ - ConditionType::kPath: /*
+
+
+App Capabilities
+================
+
+Promise App List
+================
+
